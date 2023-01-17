@@ -6,11 +6,14 @@ export default function App() {
     document.title = 'mandelbrot explorer';
   });
   return (
-    <div className='text-center bg-amber-100 h-screen'>
+    <div className='text-center bg-amber-100 h-screen font-display'>
       <div>
         <p className='pt-10'>V = V^2 + C</p>
         <div className='mt-5 italic'>
-          <a href='https://github.com/skyleilani/fractal-shader'>
+          <a
+            href='https://github.com/skyleilani/fractal-shader'
+            className='hover:text-rose-600 '
+          >
             {' '}
             view github repo{' '}
           </a>
@@ -19,7 +22,7 @@ export default function App() {
           <UnityMandelbrot />
         </div>
       </div>
-      <div className='justify-center flex '>
+      <div className='justify-center flex text-lg '>
         <div className=' w-2/4 mt-10 justify-center '>
           <h4>use WASD keys to navigate fractal</h4>
           <p>
