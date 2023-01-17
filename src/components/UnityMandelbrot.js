@@ -4,8 +4,8 @@ const UnityMandelbrot = () => {
       <iframe
         src='/unity/index.html'
         title='Mandelbrot Explorer'
-        width={900}
-        height={550}
+        width={500}
+        height={500}
       />
     </div>
   );
