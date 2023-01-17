@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import UnityGame from './components/UnityMandelbrot';
+import UnityMandelbrot from './components/UnityMandelbrot';
 
 export default function App() {
   useEffect(() => {
@@ -10,13 +10,13 @@ export default function App() {
       <div>
         <p className='pt-10'>V = V^2 + C</p>
         <div className='mt-5 italic'>
-          <a href='https://github.com/skyleilani/unity-game'>
+          <a href='https://github.com/skyleilani/fractal-shader'>
             {' '}
             view github repo{' '}
           </a>
         </div>
         <div className='flex justify-center'>
-          <UnityGame />
+          <UnityMandelbrot/>
         </div>
       </div>
       <div className='justify-center flex '>
