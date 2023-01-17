@@ -6,7 +6,7 @@ export default function App() {
     document.title = 'mandelbrot explorer';
   });
   return (
-    <div className='text-center bg-amber-100'>
+    <div className='text-center bg-amber-100 h-screen'>
       <div>
         <p className='pt-10'>V = V^2 + C</p>
         <div className='mt-5 italic'>
@@ -16,7 +16,7 @@ export default function App() {
           </a>
         </div>
         <div className='flex justify-center'>
-          <UnityMandelbrot/>
+          <UnityMandelbrot />
         </div>
       </div>
       <div className='justify-center flex '>
